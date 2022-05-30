@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--此文件用于存放排行榜数据，easy标签存放简单难度，hard标签存放困难难度-->
+<root>
+<easy>
+test 11111
+</easy>
+<hard>
+test 11111
+</hard>
+</root>

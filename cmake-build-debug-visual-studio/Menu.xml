@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--此文件用于存放开始菜单-->
+<!--如果中文主菜单或日语主菜单出现乱码，请尝试将上方xml标签的encoding属性改为其他的编码，如UTF-8、JIS等-->
+<root>
+<cn>
+    菜单
+开始游戏
+新手教程
+排行榜
+退出游戏
+     难 度
+   简单
+   困难
+ 返回
+</cn>
+<en>
+  MENU
+Start Game
+Tutorial
+Leaderboard
+Exit
+DIFFICULTY
+   Easy
+   Hard
+ Back
+</en>
+<jp>
+ メニュー
+スタート
+私は初心者
+リーダーボード
+ゲーム終了
+    難易度
+   簡単
+  難しい
+ 戻る
+</jp>
+</root>

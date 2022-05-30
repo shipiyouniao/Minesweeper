@@ -1,0 +1,4 @@
+ToolSet: 17.0 (local)@E:\Microsoft Visual Studio\2022\Community
+Options: msvc.arch=x86
+
+Options:-DCMAKE_MAKE_PROGRAM=E:/JetBrains/CLion/bin/ninja/win/ninja.exe
