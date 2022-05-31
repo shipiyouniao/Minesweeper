@@ -7,7 +7,7 @@ include_directories(.)
 
 add_executable(Minesweeper
         Game.cpp
-        Index.cpp
+        GraphicsIndex.cpp
         index.h
         LeaderBoard.cpp
         Menu.cpp

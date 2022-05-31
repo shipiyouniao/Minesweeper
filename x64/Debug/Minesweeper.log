@@ -1,0 +1,14 @@
+﻿  Game.cpp
+E:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\graphics.h(1,1): warning C4828: 文件包含在偏移 0x19d3 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+D:\project\Minesweeper\Minesweeper\Game.cpp(39,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\project\Minesweeper\Minesweeper\Game.cpp(279,12): warning C4244: “初始化”: 从“time_t”转换到“long”，可能丢失数据
+  GraphicsIndex.cpp
+E:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\graphics.h(1,1): warning C4828: 文件包含在偏移 0x19d3 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+  LeaderBoard.cpp
+E:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\graphics.h(1,1): warning C4828: 文件包含在偏移 0x19d3 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+  Menu.cpp
+E:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\graphics.h(1,1): warning C4828: 文件包含在偏移 0x19d3 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+  Minesweeper.cpp
+E:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\graphics.h(1,1): warning C4828: 文件包含在偏移 0x19d3 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+  正在生成代码...
+  Minesweeper.vcxproj -> D:\project\Minesweeper\x64\Debug\Minesweeper.exe

@@ -18,7 +18,7 @@
     <ClCompile Include="Minesweeper.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Index.cpp">
+    <ClCompile Include="GraphicsIndex.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Menu.cpp">

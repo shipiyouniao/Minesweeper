@@ -2,6 +2,6 @@
 1	1054	6756277712744170	CMakeFiles/Minesweeper.dir/Game.cpp.obj	b639088320b2dd21
 49	1061	6756277712587931	CMakeFiles/Minesweeper.dir/Minesweeper.cpp.obj	b83baf50e1015ddd
 38	1075	6756277712900451	CMakeFiles/Minesweeper.dir/LeaderBoard.cpp.obj	57f608b4f936e892
+954	1598	6756979299750038	Minesweeper.exe	c0d5d8a5e5486e9e
 26	1091	6756277713056693	CMakeFiles/Minesweeper.dir/Index.cpp.obj	53c0b8d316434226
-13	1102	6756277713216957	CMakeFiles/Minesweeper.dir/Menu.cpp.obj	30e94ced1d3d2ed8
-1102	1600	6756277718188284	Minesweeper.exe	c0d5d8a5e5486e9e
+0	953	6756979293971577	CMakeFiles/Minesweeper.dir/Menu.cpp.obj	30e94ced1d3d2ed8

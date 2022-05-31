@@ -1,7 +1,7 @@
 /*******************************************************
-	文件名：Index.cpp
+	文件名：GraphicsIndex.cpp
 	功能：存放可视化相关方式
-	版本：1.2(22.05.29)
+	版本：1.3(22.05.31)
 	作者：石皮幼鸟
 	版本说明：无
 
@@ -9,11 +9,11 @@
 		1.0(22.05.28) 完成创建窗口和矩形绘制方式
 		1.1(22.05.28) 完成了判定鼠标点击区域的方式
 		1.2(22.05.29) 无
+		1.3(22.05.31) 更名为GraphicsIndex.cpp
 *******************************************************/
 
 
 #include "index.h"
-
 
 
 /*******************************************************
@@ -23,16 +23,16 @@
 	返回：无
 *******************************************************/
 void creatWindow() {
-	initgraph(1280, 720);
-	setbkcolor(WHITE);
-	cleardevice();
-	settextcolor(BLACK);
-	settextstyle(150,0,"微软雅黑");
-	outtextxy(525,200,"扫雷");
-	settextstyle(80, 0, "微软雅黑");
-	outtextxy(455, 400, "石皮幼鸟制作");
-	Sleep(3000);
-	cleardevice();
+    initgraph(1280, 720);
+    setbkcolor(WHITE);
+    cleardevice();
+    settextcolor(BLACK);
+    settextstyle(150, 0, "微软雅黑");
+    outtextxy(525, 200, "扫雷");
+    settextstyle(80, 0, "微软雅黑");
+    outtextxy(455, 400, "石皮幼鸟制作");
+    Sleep(3000);
+    cleardevice();
 }
 
 /*******************************************************
@@ -42,12 +42,12 @@ void creatWindow() {
 	返回：无
 *******************************************************/
 void creatRect(int x, int y, int height, int width, COLORREF color) {
-	moveto(x, y);
-	setlinecolor(color);
-	linerel(width, 0);
-	linerel(0, height);
-	linerel(-width, 0);
-	linerel(0, -height);
+    moveto(x, y);
+    setlinecolor(color);
+    linerel(width, 0);
+    linerel(0, height);
+    linerel(-width, 0);
+    linerel(0, -height);
 }
 
 /*******************************************************
@@ -57,6 +57,6 @@ void creatRect(int x, int y, int height, int width, COLORREF color) {
 	返回：不在该区域返回0，反之返回1
 *******************************************************/
 bool cursorCheck(int x, int y, int xMin, int xMax, int yMin, int yMax) {
-	if (xMin <= x && x <= xMax && y <= yMax && y >= yMin) return 1;
-	else return 0;
+    if (xMin <= x && x <= xMax && y <= yMax && y >= yMin) return 1;
+    else return 0;
 }
